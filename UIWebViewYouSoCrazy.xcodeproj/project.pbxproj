@@ -24,6 +24,7 @@
 		94322B7C181B08DE003786DC /* derp.html in Resources */ = {isa = PBXBuildFile; fileRef = 94322B7B181B08DE003786DC /* derp.html */; };
 		94322B7F181B0945003786DC /* WebViewControllerType1.m in Sources */ = {isa = PBXBuildFile; fileRef = 94322B7E181B0945003786DC /* WebViewControllerType1.m */; };
 		94322B84181B171F003786DC /* WebViewControllerType2.m in Sources */ = {isa = PBXBuildFile; fileRef = 94322B83181B171F003786DC /* WebViewControllerType2.m */; };
+		94322B87181B20B5003786DC /* WebViewControllerType3.m in Sources */ = {isa = PBXBuildFile; fileRef = 94322B86181B20B5003786DC /* WebViewControllerType3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		94322B7E181B0945003786DC /* WebViewControllerType1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewControllerType1.m; sourceTree = "<group>"; };
 		94322B82181B171F003786DC /* WebViewControllerType2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewControllerType2.h; sourceTree = "<group>"; };
 		94322B83181B171F003786DC /* WebViewControllerType2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewControllerType2.m; sourceTree = "<group>"; };
+		94322B85181B20B5003786DC /* WebViewControllerType3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewControllerType3.h; sourceTree = "<group>"; };
+		94322B86181B20B5003786DC /* WebViewControllerType3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewControllerType3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 		94322B4C181B057C003786DC /* UIWebViewYouSoCrazy */ = {
 			isa = PBXGroup;
 			children = (
+				94322B85181B20B5003786DC /* WebViewControllerType3.h */,
+				94322B86181B20B5003786DC /* WebViewControllerType3.m */,
 				94322B82181B171F003786DC /* WebViewControllerType2.h */,
 				94322B83181B171F003786DC /* WebViewControllerType2.m */,
 				94322B7D181B0945003786DC /* WebViewControllerType1.h */,
@@ -270,6 +275,7 @@
 				94322B53181B057C003786DC /* main.m in Sources */,
 				94322B77181B05BF003786DC /* TableViewController.m in Sources */,
 				94322B57181B057C003786DC /* AppDelegate.m in Sources */,
+				94322B87181B20B5003786DC /* WebViewControllerType3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +476,7 @@
 				94322B71181B057C003786DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94322B72181B057C003786DC /* Build configuration list for PBXNativeTarget "UIWebViewYouSoCrazyTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				94322B74181B057C003786DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

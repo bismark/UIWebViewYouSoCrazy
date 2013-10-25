@@ -10,6 +10,7 @@
 #import "WebViewControllerType0.h"
 #import "WebViewControllerType1.h"
 #import "WebViewControllerType2.h"
+#import "WebViewControllerType3.h"
 
 @interface TableViewController ()
 
@@ -27,7 +28,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 3;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -43,6 +44,9 @@
             break;
         case 2:
             cell.textLabel.text = @"multipleRenders hack";
+            break;
+        case 3:
+            cell.textLabel.text = @"injecting meta viewport";
             break;
 
         default:
@@ -63,6 +67,9 @@
     case 2:
            [self.navigationController pushViewController:[[WebViewControllerType2 alloc] init] animated:YES];
         break;
+    case 3:
+           [self.navigationController pushViewController:[[WebViewControllerType3 alloc] init] animated:YES];
+           break;
 
     default:
         break;
